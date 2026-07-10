@@ -163,7 +163,7 @@
 
     const answers = [
       'You can open an account by visiting a Yakima Federal branch or by starting with product information pages that explain checking, savings, and documentation requirements. Bringing valid identification and proof of address will help the process move quickly.',
-      'Deposits are generally covered by applicable federal insurance limits through the bank's insured account structure. For exact coverage by account ownership type, you can request a personalized review with branch staff.',
+      "Deposits are generally covered by applicable federal insurance limits through the bank's insured account structure. For exact coverage by account ownership type, you can request a personalized review with branch staff.",
       'Loan options include purchase, refinance, construction, and home equity products. A lending specialist can explain qualification, rates, and monthly payment scenarios based on your goals.'
     ];
 
