@@ -40,7 +40,11 @@ document.addEventListener('DOMContentLoaded', () => {
     title.style.fontSize = `${size}px`;
   };
   fitFooterTitle();
-  window.addEventListener('resize', fitFooterTitle);
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(fitFooterTitle, 120);
+  });
 
   document.querySelectorAll('[data-faq-item]').forEach((item) => {
     const trigger = item.querySelector('[data-faq-trigger]');

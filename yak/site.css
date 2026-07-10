@@ -49,6 +49,8 @@ ul.clean li { margin-bottom: .35rem; }
 .faq-sector { margin-top: .8rem; }
 .faq-item { border-top: 1px solid var(--line); }
 .faq-question { width: 100%; text-align: left; padding: .9rem 0; font-weight: 600; color: var(--text); cursor: pointer; background: none; }
+.faq-question { border: none; }
+.faq-question:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
 .faq-answer { display: none; padding: 0 0 1rem; color: var(--muted); }
 .faq-item.open .faq-answer { display: block; }
 footer { margin-top: 2rem; border-top: 1px solid var(--line); background: #f2f8f4; }
